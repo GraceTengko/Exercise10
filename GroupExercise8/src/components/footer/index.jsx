@@ -1,9 +1,12 @@
-const Footer = () => {
+const Footer = (props) => {
+    // Menggunakan props di dalam komponen
+    const { text } = props;
+
     return (
-         
-         <h1>Footer</h1>
-  
-      
-      )
-    }
-  export default Footer
+        <div>
+            <h1>{text}</h1>
+        </div>
+    );
+};
+
+export default Footer;

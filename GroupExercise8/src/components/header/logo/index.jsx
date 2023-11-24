@@ -1,9 +1,11 @@
-const Logo = () => {
+import React from 'react';
+
+const Logo = (props) => {
+    const { logoText } = props;
+
     return (
-         
-         <h1>Logo</h1>
-  
-      
-      )
-    }
-  export default Logo
+        <h1>{logoText}</h1>
+    );
+};
+
+export default Logo;
