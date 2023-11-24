@@ -1,8 +1,9 @@
-const Logoo = () => {
-    return (
-         
-         <h3>Logoo</h3>
+const Logo = (props) => {
+  const { logoText } = props;
 
-      )
-    }
-  export default Logoo
+  return (
+      <h1>{logoText}</h1>
+  );
+};
+
+export default Logo;
