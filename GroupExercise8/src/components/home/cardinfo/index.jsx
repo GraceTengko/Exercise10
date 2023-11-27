@@ -1,8 +1,11 @@
-const Cardinfo = () => {
-    return (
-                 
-         <h2>Cardinfo</h2>
-  
-      )
-    }
-  export default Cardinfo
+const Cardinfo = (props) => {
+  const { cardText } = props;
+
+  return (
+    <div>
+      <h2>{cardText}</h2>
+    </div>
+  );
+};
+
+export default Cardinfo;
