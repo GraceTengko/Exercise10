@@ -1,10 +1,9 @@
-const Gen_1 = (props) => {
-  const { generationNumber} = props;
+const Gen_1 = () => {
     return (
          
-         <h1>{'Gen_1</h1 - Generation ${generationNumber}'}</h1>
+         <h1>Gen_1</h1>
   
       
-      );
+      )
     }
-  export default Gen_1;
+  export default Gen_1
